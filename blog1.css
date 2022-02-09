@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+h1 {
+    font-family: 'Philosopher',serif;
+    font-size: 30px;
+}
+
+nav {
+    background-color: aqua;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.main-nav li {
+    font-size: 20px; 
+}
+
+.li-1{
+    margin-right: 5rem;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    border-color: white;
+}
+
+.li-3{
+    margin-left: 5rem;
+    margin-right: 3rem;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    border-color: white;
+}
+
+.main-nav a {
+    color: rgb(104, 103, 103);
+}
+
+a {
+    text-decoration: none;
+}
