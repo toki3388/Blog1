@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <!--<meta name="description" content="ブログサイトです">-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="blog1.css">
+    <script src="https://kit.fontawesome.com/6240d24f45.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
   </head>
+
   <body>
     <header>
-      <h1>BlogTemplate</h1>
+      <div class="subMain">
+        日本の夏
+      </div>
       <nav>
         <ul class="main-nav">
           <li class="li-1"><a href="home.html">HOME</a></li>
@@ -17,6 +23,12 @@
         </ul>
       </nav>
     </header>
-  
+
+    <div id="slide">
+      <div id="leftArrow" class="leftArrow fa-solid fa-angle-left"></div>
+      <div id="rightArrow" class="rightArrow fa-solid fa-angle-right"></div>
+      <img id="photos">
+    </div>
+
   </body>
 </html>
