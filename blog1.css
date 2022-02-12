@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
-h1 {
+.subMain {
+    height: 7rem;
     font-family: 'Philosopher',serif;
-    font-size: 30px;
+    font-size: 45px;
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 3rem;
 }
 
 nav {
@@ -46,4 +50,47 @@ nav {
 
 a {
     text-decoration: none;
+}
+
+body {
+    text-align: center;
+}
+
+#photos {
+    max-width: 1000px;
+    width: 100%;
+    height: 33rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+#slide {
+    position: relative;
+}
+
+#slide .leftArrow,
+#slide .rightArrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+#slide .leftArrow {
+    left: 13rem;
+}
+
+#slide .rightArrow {
+    right: 13.4rem;
+}
+
+#slide .leftArrow,
+#slide .rightArrow {
+    font-size: 50px;
+    color: gray;
+}
+
+#slide .leftArrow:hover,
+#slide .rightArrow:hover {
+    opacity: 0.5; /*カーソルを当てた時の透明度*/
 }
